@@ -29,7 +29,7 @@ Given the hackathon environment, we adopted a fast-paced project management appr
 - **OpenAI API Integration**: Generates context-aware responses based on user messages.
 - **Simple API**: Provides quick responses for basic queries.
 - **MongoDB Database**: Stores user accounts, conversation histories, and message data to ensure continuity in interactions.
-- **Voice Messaging**: Enables users to send and receive voice messages, transcribing audio into text for processing and converting text responses back into audio when needed.
+- **Voice Messaging**: Allows users to send and receive voice messages, converting audio to text for processing and text responses back into audio as needed.
 
 ---
 
@@ -68,9 +68,8 @@ Given the hackathon environment, we adopted a fast-paced project management appr
   - **Description**: MongoDB is used to store user data, conversation histories, and messages, while Mongoose simplifies data modeling.
 
 - **Voice Messaging**  
-  - **Technologies**: Web Speech API (for browser-based transcription), Google Text-to-Speech API, Google Speech-to-Text API
-  - **Description**: Allows users to send voice messages, transcribes audio to text for processing, and converts text responses back into audio. Supports seamless voice-based interactions.
+  - **Description**: Allows users to send voice messages, transcribes audio to text for processing, and converts text responses back into audio for seamless voice-based interactions.
 
---- 
+---
 
 This README provides a concise overview of the project management approach, completed features, and the technology stack used to build an efficient and user-friendly chatbot system with voice messaging capabilities.
