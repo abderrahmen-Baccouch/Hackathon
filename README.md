@@ -1,6 +1,6 @@
 # Chatbot System Documentation
 
-This project is a chatbot system designed to manage user and admin accounts, real-time data extraction, AI-driven responses, and voice messaging capabilities. The system integrates various APIs, leverages MongoDB for data storage, and supports efficient message routing.
+This project is a chatbot system designed to manage user and admin accounts, perform real-time data extraction, generate AI-driven responses, and support voice messaging capabilities. The system integrates various APIs, uses MongoDB for data storage, and enables efficient message routing.
 
 ---
 
@@ -39,17 +39,21 @@ Given the hackathon environment, we adopted a fast-paced project management appr
   - **Technologies**: NestJS, JWT, MongoDB
   - **Description**: NestJS framework manages user authentication, leveraging JWT for secure session management and MongoDB for data storage.
 
+- **Frontend Interface**  
+  - **Technologies**: Angular
+  - **Description**: The user interface is built using Angular, providing a responsive and dynamic frontend for user and admin interactions.
+
 - **Dispatcher**  
   - **Technologies**: Go, REST API
   - **Description**: Built in Go, the Dispatcher handles message routing and interacts with the Judge module via REST API calls.
 
 - **Decision Engine (Judge)**  
   - **Technologies**: Go, JSON, HTTP server
-  - **Description**: The Judge module processes requests based on message type and directs them to the appropriate module, also managing MongoDB interactions.
+  - **Description**: The Judge module, written in Go, processes requests based on message type and directs them to the appropriate module, also managing MongoDB interactions.
 
 - **Scraping Module**  
-  - **Technologies**: BeautifulSoup, Requests (Python)
-  - **Description**: Uses BeautifulSoup for HTML parsing and Requests for making HTTP calls, enabling data extraction from web pages based on user queries.
+  - **Technologies**: Flask, BeautifulSoup, Requests (Python)
+  - **Description**: Flask is used to manage the scraping service, which utilizes BeautifulSoup and Requests for extracting data from external sources in response to user queries.
 
 - **OpenAI API Integration**  
   - **Technologies**: OpenAI API
