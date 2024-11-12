@@ -52,8 +52,8 @@ Given the hackathon environment, we adopted a fast-paced project management appr
   - **Description**: The Judge module, written in Go, processes requests based on message type and directs them to the appropriate module, also managing MongoDB interactions.
 
 - **Scraping Module**  
-  - **Technologies**: Flask, BeautifulSoup, Requests (Python)
-  - **Description**: Flask is used to manage the scraping service, which utilizes BeautifulSoup and Requests for extracting data from external sources in response to user queries.
+  - **Technologies**: Flask, Requests (Python)
+  - **Description**: Flask is used to manage the scraping service, utilizing Requests to fetch data from external sources in response to user queries.
 
 - **OpenAI API Integration**  
   - **Technologies**: OpenAI API
